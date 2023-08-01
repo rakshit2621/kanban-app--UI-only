@@ -4,7 +4,7 @@ import { resources } from "../../../resources/TileResources";
 
 export default function Tile() {
   return (
-    <div className="w-full min-h-[75%] flex justify-evenly items-start">
+    <div className="w-full min-h-[75%] flex justify-evenly items-start ">
       <div className="w-[30%] h-[65vh] bg-[#F5F5F5] rounded-xl flex flex-col justify-start items-center">
         <div className="w-[90%] h-[10vh] flex flex-col justify-evenly items-center">
           <div className="w-full h-[50%] flex justify-between items-center">
@@ -50,6 +50,7 @@ export default function Tile() {
                             <img
                               src={data}
                               className="relative"
+                              alt=""
                               style={{
                                 transform: `translateX(${index * -0.5}vw)`,
                               }}
@@ -95,6 +96,7 @@ export default function Tile() {
                             <img
                               src={data}
                               className="relative"
+                              alt=""
                               style={{
                                 transform: `translateX(${index * -0.5}vw)`,
                               }}
@@ -141,6 +143,7 @@ export default function Tile() {
                             <img
                               src={data}
                               className="relative"
+                              alt=""
                               style={{
                                 transform: `translateX(${index * -0.5}vw)`,
                               }}
@@ -193,7 +196,7 @@ export default function Tile() {
                 Onboarding Illustrations
               </div>
               <div className="w-[90%] h-[30%] text-xs text-[#787486] flex justify-evenly items-center">
-                <img src={resources.images[2]} />
+                <img src={resources.images[2]} alt="" />
               </div>
               <div className="w-[90%] h-[25%] flex justify-between items-center">
                 <div className="w-[25%] h-full flex justify-center items-center">
@@ -205,6 +208,7 @@ export default function Tile() {
                             <img
                               src={data}
                               className="relative"
+                              alt=""
                               style={{
                                 transform: `translateX(${index * -0.5}vw)`,
                               }}
@@ -239,8 +243,8 @@ export default function Tile() {
               Moodboard
             </div>
             <div className="w-[90%] h-[30%] text-xs text-[#787486] flex justify-evenly items-center">
-              <img src={resources.images[0]} className="w-[40%]" />
-              <img src={resources.images[1]} className="w-[40%]" />
+              <img src={resources.images[0]} className="w-[40%]" alt="" />
+              <img src={resources.images[1]} className="w-[40%]" alt="" />
             </div>
             <div className="w-[90%] h-[25%] flex justify-between items-center">
               <div className="w-[25%] h-full flex justify-center items-center">
@@ -252,6 +256,7 @@ export default function Tile() {
                           <img
                             src={data}
                             className="relative"
+                            alt=""
                             style={{
                               transform: `translateX(${index * -0.5}vw)`,
                             }}
@@ -303,7 +308,7 @@ export default function Tile() {
                 Mobile App Design
               </div>
               <div className="w-[90%] h-[30%] text-xs text-[#787486] flex justify-evenly items-center">
-                <img src={resources.images[3]} />
+                <img src={resources.images[3]} alt="" />
               </div>
               <div className="w-[90%] h-[25%] flex justify-between items-center">
                 <div className="w-[25%] h-full flex justify-center items-center">
@@ -315,6 +320,7 @@ export default function Tile() {
                             <img
                               src={data}
                               className="relative"
+                              alt=""
                               style={{
                                 transform: `translateX(${index * -0.5}vw)`,
                               }}
@@ -361,6 +367,7 @@ export default function Tile() {
                           <img
                             src={data}
                             className="relative"
+                            alt=""
                             style={{
                               transform: `translateX(${index * -0.5}vw)`,
                             }}
